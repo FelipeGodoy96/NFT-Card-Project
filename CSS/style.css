@@ -63,8 +63,10 @@ body {
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  height: 100%;
-  width: 100%;
+  background-image: url("../images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .background .card .card-body .small {
