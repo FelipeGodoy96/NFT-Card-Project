@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  font-size: 18px !important;
+}
+
+.background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0d192b;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.background .card {
+  font-family: 'Outfit', sans-serif;
+  background-color: #14253d;
+  color: white;
+  position: absolute;
+  border-radius: 5px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.background .card .equilibrium {
+  height: 325px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.background .card .equilibrium:hover {
+  border-radius: 5px;
+  background: rgba(0, 150, 167, 0.5);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.background .card .card-body .small {
+  color: #8bacda;
+}
+
+.background .card .card-body .balance {
+  color: #00fff7;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.background .card .card-body .balance img {
+  -webkit-transform: translateY(-2.5px);
+          transform: translateY(-2.5px);
+}
+
+.avatar {
+  width: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.card-text {
+  color: #8bacda;
+}
+
+.attribution {
+  position: relative;
+  top: 90vh;
+}
+/*# sourceMappingURL=style.css.map */

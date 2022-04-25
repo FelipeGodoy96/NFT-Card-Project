@@ -1,0 +1,71 @@
+$softblue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+$white: hsl(0%, 0%, 100%);
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+  font-size: 18px !important;
+}
+
+.background {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  justify-content: center;
+
+  .card {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(216, 50%, 16%);
+    color: $white;
+    position: absolute;
+    border-radius: 5px;
+    align-self: center;
+    .equilibrium {
+      height: 325px;
+      width: 300px;
+      border-radius: 5px;
+    }
+    .equilibrium:hover {
+      // width: 300px;
+  //     background-image: url(
+  // './images/image-equilibrium.jpg');
+      border-radius: 5px;
+    
+      background: rgba(0, 150, 167, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+    .card-body {   
+      .small {
+        color: $softblue;
+      }    
+      .balance {
+        color: $cyan;
+              justify-content: space-around;
+        img {
+          transform: translateY(-2.5px);
+        }
+      }
+          }
+  }
+}
+
+.avatar {
+  width: 25px;
+  border: 1px solid $white;
+  border-radius: 50%;
+}
+
+.card-text {
+  color: $softblue;
+}
+
+.attribution {
+  position: relative;
+  top: 90vh;
+}
