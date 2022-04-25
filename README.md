@@ -47,6 +47,8 @@ Os usuários devem ser capazes de:
 ### O que eu aprendi
 
 Aprimorei meu conhecimento e prática com o uso de SASS e Bootstrap, combinando o uso de variáveis e classes, respectivamente.
+No projeto anterior utilizando apenas CSS e HTML puro, levei em média 3 dias para conclusão do projeto em desktop, as media queries para layout responsivo não foram incluídas. 
+Utilizando Bootstrap e SASS eu levei cerca de apenas 2 hora para finalizar o projeto, uma diferença absurda na economia de tempo.
 
 ### Recursos úteis
 
