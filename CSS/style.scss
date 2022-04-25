@@ -20,26 +20,44 @@ body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(216, 50%, 16%);
     color: $white;
-    position: absolute;
+    position: relative;
     border-radius: 5px;
     align-self: center;
-    .equilibrium {
+    .contentbox {
       height: 325px;
       width: 300px;
       border-radius: 5px;
+      position: relative;
+      .img {
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        position: absolute;
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+      .ei{
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 1;
+        }
+        .ei:hover {
+          background: rgba(0, 150, 167, 0.5);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(0px);
+       -webkit-backdrop-filter: blur(0px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        height: 100%;
+        width: 100%;
+        }
     }
-    .equilibrium:hover {
-      // width: 300px;
-  //     background-image: url(
-  // './images/image-equilibrium.jpg');
-      border-radius: 5px;
-    
-      background: rgba(0, 150, 167, 0.5);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(0px);
-  -webkit-backdrop-filter: blur(0px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-    }
+  
     .card-body {   
       .small {
         color: $softblue;
