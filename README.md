@@ -1,29 +1,34 @@
 # Frontend Mentor - NFT preview card component solution
 
-Essa é a solução para o desafio [NFT preview card component por Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
+I carried out this project during my academic career as a way of training and improving my knowledge.
+
+<br>
+<br>
+
+This project is a solution to the proposed challenge: [NFT preview card component por Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
 
 ## Table of contents
 
-- [Visão Geral](#visão-geral)
-  - [O Desafio](#o-desafio)
+- [Overview](#overview)
+  - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Meu processo](#meu-processo)
-  - [Construído com](#construído-com)
-  - [O que eu aprendi](#o-que-eu-aprendi)
-  - [Recursos úteis](#recursos-úteis)
-- [Autor](#autor)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Resources](#resources)
+- [Author](#author)
 
-## Visão Geral
+## Overview
 
-### O Desafio
+### The Challenge
 
-Construir o projeto para ficar o mais próximo parecido da imagem de pré-visualização do desafio finalizado.
+Build the project to look as close as possible to the final visualization of the challenge.
 
-Os usuários devem ser capazes de:
+Users should be able to:
 
-- Visualizar o layout ideal dependendo do tamanho da tela do dispositivo (design responsivo)
-- Visualizar o estado de foco para elementos interativos
+- Visualize the ideal layout depending on the device's screen size (responsive design);
+- Visualize the state of focus for interactive elements (hover transition).
 
 ### Screenshot
 
@@ -32,28 +37,27 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Projeto: [https://github.com/FelipeGodoy96/NFT-Card-Project](https://github.com/FelipeGodoy96/NFT-Card-Project)
+- Project: [https://github.com/FelipeGodoy96/NFT-Card-Project](https://github.com/FelipeGodoy96/NFT-Card-Project)
 - Live Site URL: [https://felipegodoy96.github.io/NFT-Card-Project](https://felipegodoy96.github.io/NFT-Card-Project)
 
-## Meu processo
+## My process
 
-### Construído com
+### Built with
 
-- Semântica HTML5
+- HTML5
 - SCSS
 - Bootstrap
 
 
-### O que eu aprendi
+### What I learned
 
-Aprimorei meu conhecimento e prática com o uso de SASS e Bootstrap, combinando o uso de variáveis e classes, respectivamente.
-No projeto anterior utilizando apenas CSS e HTML puro, levei em média 3 dias para conclusão do projeto em desktop, as media queries para layout responsivo não foram incluídas. 
-Utilizando Bootstrap e SASS eu levei cerca de apenas 2 hora para finalizar o projeto, uma diferença absurda na economia de tempo.
+I improved my knowledge and practice with the use of SASS and Bootstrap, combining the use of variables and classes respectively.
+In the previous project, using only CSS and HTML, it took me 3x longer compared to this one, showing that the tools, libraries and frameworks available make the developer's job easier.  
 
-### Recursos úteis
+### Resources
 
-- [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/) - O básico de Bootstrap instalado e suas funcionalidades.
-- [SASS](https://sass-lang.com/guide) - Processador de CSS, facilita e muito a criação de stylesheets.
+- [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/) - The basics of Bootstrap.
+- [SASS](https://sass-lang.com/guide) - CSS Postprocessor.
 
 
 ## Autor
